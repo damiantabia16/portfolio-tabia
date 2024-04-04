@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "project_title": "innobyte",
+        "project_description": "E-Commerce especializado en artículos de informática, principalmente orientado al gaming. Desarrollado con tecnologías como react, tailwindcss, y react-router-dom, el sitio cuenta con un carrito de compras funcional. La información de cada producto se gestiona a través de un array de objetos creado para mantener una base de datos organizada y fácil de actualizar. Innobyte es un ejemplo práctico de aplicación de tecnologías modernas para la creación de un sitio web de comercio electrónico.",
+        "project_image": "project_img/innobyte/innobyte_project_image.jpg",
+        "project_logo": "project_img/innobyte/innobyte-logo.png",
+        "project_link": "https://damiantabia16.github.io/innobyte/",
+        "categorie": "Desarrollo Web",
+        "tools_ids": [1, 2, 3, 7, 8],
+        "gallery_images": {
+            "image1": "project_img/innobyte/innobyte1.jpg",
+            "image2": "project_img/innobyte/innobyte2.jpg",
+            "image3": "project_img/innobyte/innobyte3.jpg",
+            "image4": "project_img/innobyte/innobyte4.jpg",
+            "image5": "project_img/innobyte/innobyte5.jpg",
+            "image6": "project_img/innobyte/innobyte6.jpg"   
+        }
+    },
+    {
+        "id": 2,
+        "project_title": "Quik",
+        "project_description": "Aplicación full-stack de gestión de notas que ofrece una experiencia organizativa intuitiva y eficiente. Inspirada en la simplicidad de Google Keep y la versatilidad de Trello, Quik permite a los usuarios crear tableros personalizados para clasificar y gestionar sus notas de manera eficaz. El cliente se ha implementado utilizando React, para el desarrollo del servidor se empleó NodeJS en conjunto con Express, y mySQL fue la opción electa para ocupar el rol de la base de datos.",
+        "project_image": "project_img/quik/quik_project_image.png",
+        "project_logo": "project_img/quik/quik-logo.png",
+        "project_link": "https://quik-workspace.vercel.app/",
+        "categorie": "Desarrollo Full-Stack",
+        "tools_ids": [1, 2, 3, 7, 8, 9, 10],
+        "gallery_images": {
+            "image1": "project_img/quik/quik1.jpg",
+            "image2": "project_img/quik/quik2.jpg",
+            "image3": "project_img/quik/quik3.jpg",
+            "image4": "project_img/quik/quik4.jpg",
+            "image5": "project_img/quik/quik5.jpg",
+            "image6": "project_img/quik/quik6.jpg"   
+        }
+    }
+]
