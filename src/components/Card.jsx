@@ -20,7 +20,7 @@ const Card = ({ project }) => {
             ref={ref}
             key={project.id}
             id={project.project_title}
-            className='max-w-[540px] relative'
+            className='relative max-w-[540px] pb-[40px] min-[1126px]:pb-0'
             initial={{ opacity: 0, y: 40 }}
             animate={controls}
             transition={{ duration: 0.3, delay: 0.2 }}

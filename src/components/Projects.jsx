@@ -22,9 +22,9 @@ const Projects = () => {
           <span className='text-[#ffdc00]'>#</span> Proyectos
         </h3>
       </motion.div>
-      <div id="projects-container" className='py-[60px] flex items-center justify-around'>
+      <div id="projects-container" className='py-[60px] flex flex-wrap items-center justify-around'>
       {projects && projects.map(project => (
-        <Card project={project} />
+        <Card project={project} key={project.id} />
       ))}
       </div>
     </section>
